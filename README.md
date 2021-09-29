@@ -2,7 +2,7 @@
 
 ## Running the example
 
-In order to run the example you need to have `python3` (any version higher than `3.6`) and `pip3` installed.
+In order to run the example you need to have `python3` (any version higher than `3.6`) and `pip3` installed, you'll also need an Auth0 account, [you can get your Auth0 account for free here](https://a0.to/jtemporal-signup-for-auth0).
 
 ### Configuration
 
