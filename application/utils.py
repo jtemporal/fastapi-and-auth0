@@ -56,7 +56,7 @@ class VerifyToken():
                 issuer=self.config["ISSUER"],
             )
         except Exception as e:
-            return {"status": "error", "message": str(e)}
+            return {"status": "error", "msg": str(e)}
 
         if self.scopes:
             result = self._check_claims(payload, 'scope', str, self.scopes.split(' '))
